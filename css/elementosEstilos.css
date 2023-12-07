@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gridElementos {
+  display: grid;
+  grid-template-columns: repeat(3, 75px);
+  grid-template-rows: repeat(3, 75px);
+  padding: 50px;
+}
+
+button {
+  margin: 3px;
+  background-color: cadetblue;
+  border-radius: 5px;
+  font-size: 0%;
+}
+
+button:hover {
+  background-color: grey;
+  font-size: 100%;
+}
+
